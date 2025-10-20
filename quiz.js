@@ -503,6 +503,240 @@ const quizQuestions = [
         answer: "شبكة ملاحظة الأداء (Grille d'observation)",
         rationale: "شبكة الملاحظة هي الأداة المنهجية التي تسجل مؤشرات الأداء (Indicators) خطوة بخطوة أثناء العملية التطبيقية."
     },
+    {
+        question: "Pour quelle raison la 'pédagogie de projet' (Pédagogie du projet) est-elle recommandée dans l'enseignement des langues?",
+        options: ["Elle permet de réduire le nombre d'heures de cours.", "Elle mobilise et intègre les différentes compétences linguistiques (oral, écrit, lecture) autour d'une tâche finale concrète et motivante.", "Elle se concentre uniquement sur la grammaire et la conjugaison.", "Tous les choix précédents sont faux."],
+        answer: "Elle mobilise et intègre les différentes compétences linguistiques (oral, écrit, lecture) autour d'une tâche finale concrète et motivante.",
+        rationale: "La pédagogie de projet favorise l'intégration des acquis et donne un sens concret à l'apprentissage en aboutissant à une réalisation finale (ex: journal de classe, pièce de théâtre)."
+    },
+    {
+        question: "Si un apprenant francophone utilise la structure 'Je sais lire' au lieu de 'Je peux lire' pour exprimer la capacité, on parle d'une erreur d':",
+        options: ["Interférence linguistique (avec l'arabe)", "Sur-généralisation", "Inattention", "Erreur didactique"],
+        answer: "Interférence linguistique (avec l'arabe)",
+        rationale: "C'est un calque direct (traduction littérale) de la structure de la langue maternelle ('أعرف أن أقرأ'), ce qui est une erreur typique d'interférence linguistique."
+    },
+    {
+        question: "Qu'est-ce que 'l'évaluation formative' (Évaluation formative) apporte à l'enseignant en didactique du français?",
+        options: ["Une note finale pour le bulletin scolaire.", "Des données précises pour ajuster les activités de remédiation et corriger son enseignement.", "Une comparaison entre les élèves pour le classement.", "Une justification de la réussite ou de l'échec."],
+        answer: "Des données précises pour ajuster les activités de remédiation et corriger son enseignement.",
+        rationale: "L'évaluation formative est avant tout un outil d'ajustement pédagogique (régulation) pour l'enseignant et une source de feedback pour l'apprenant."
+    },
+    {
+        question: "L'activité de 'dictée négociée' (Dictée négociée) a pour objectif principal de:",
+        options: ["S'assurer que les élèves copient le texte à l'identique.", "Développer la réflexion grammaticale et l'auto-correction par la discussion et la justification des choix orthographiques et grammaticaux en groupe.", "Évaluer la vitesse d'écriture.", "Tous les choix précédents sont faux."],
+        answer: "Développer la réflexion grammaticale et l'auto-correction par la discussion et la justification des choix orthographiques et grammaticaux en groupe.",
+        rationale: "La dictée négociée est une activité de co-construction des savoirs qui utilise l'erreur collective comme moteur de réflexion grammaticale et d'apprentissage."
+    },
+    {
+        question: "Dans l'approche par compétences (APC), l'objectif de l'apprentissage se déplace de l'enseignement des savoirs vers:",
+        options: ["La mémorisation de longues listes de vocabulaire.", "La capacité de l'élève à mobiliser ses ressources dans une situation complexe.", "L'évaluation purement sommative.", "Le respect strict des instructions de l'enseignant."],
+        answer: "La capacité de l'élève à mobiliser ses ressources dans une situation complexe.",
+        rationale: "L'APC se focalise sur l'opérationnalisation des connaissances (savoirs, savoir-faire, savoir-être) en contexte, autrement dit, la compétence."
+    },
+    {
+        question: "Quel rôle joue 'l'hétérogénéité' (Hétérogénéité) des apprenants dans une classe de langue selon la pédagogie différenciée?",
+        options: ["Un obstacle majeur à éviter absolument.", "Une ressource à exploiter pour l'apprentissage mutuel (tutoring) et l'enrichissement des stratégies de résolution.", "Un facteur justifiant l'uniformité des activités.", "Tous les choix précédents sont faux."],
+        answer: "Une ressource à exploiter pour l'apprentissage mutuel (tutoring) et l'enrichissement des stratégies de résolution.",
+        rationale: "L'hétérogénéité est vue comme une richesse permettant la différenciation et l'entraide (tutorat) où les élèves apprennent les uns des autres."
+    },
+    {
+        question: "Le terme 'compétence transversale' (Compétence transversale) désigne une compétence qui:",
+        options: ["Est spécifique à l'enseignement du français.", "S'applique à plusieurs disciplines et situations de la vie courante (ex: la communication, la méthodologie, l'autonomie).", "Est évaluée uniquement à l'examen final.", "Ne nécessite pas d'enseignement explicite."],
+        answer: "S'applique à plusieurs disciplines et situations de la vie courante (ex: la communication, la méthodologie, l'autonomie).",
+        rationale: "Les compétences transversales, par opposition aux compétences disciplinaires, sont mobilisables dans une grande variété de contextes (en classe et dans la vie)."
+    },
+    {
+        question: "Comment doit-on enseigner l'Orthographe d'usage (Orthographe lexicale) au cycle primaire?",
+        options: ["Par la mémorisation intensive de règles complexes.", "Par la répétition d'exercices isolés sans contexte.", "Par des activités de production en contexte et l'utilisation de listes de mots outils fréquents.", "Tous les choix précédents sont faux."],
+        answer: "Par des activités de production en contexte et l'utilisation de listes de mots outils fréquents.",
+        rationale: "L'orthographe lexicale s'acquiert principalement par l'exposition fréquente et la pratique en situation réelle (contexte) à l'aide d'outils (mots outils, dictionnaire)."
+    },
+    {
+        question: "Quelle est la fonction du 'Canevas' (Modèle) ou du 'Plan de travail' fourni à l'élève pour une production écrite?",
+        options: ["Réduire l'effort de l'enseignant.", "Garantir que tous les élèves écrivent le même texte.", "Servir d''échafaudage' (scaffolding) méthodologique pour organiser les idées et structurer le texte.", "Évaluer la capacité de l'élève à inventer de nouvelles idées."],
+        answer: "Servir d''échafaudage' (scaffolding) méthodologique pour organiser les idées et structurer le texte.",
+        rationale: "Le canevas est un support méthodologique qui guide l'élève dans la planification et la structuration d'une tâche complexe sans lui donner le contenu, facilitant ainsi l'autonomie progressive."
+    },
+    {
+        question: "Dans le cadre de l'approche communicative, l'apprentissage du français vise principalement:",
+        options: ["La maîtrise parfaite de la syntaxe.", "Le développement de l'efficacité communicationnelle et de l'aisance dans les situations réelles.", "La connaissance de l'histoire de la langue française.", "La production de textes littéraires complexes."],
+        answer: "Le développement de l'efficacité communicationnelle et de l'aisance dans les situations réelles.",
+        rationale: "L'approche communicative met l'accent sur l'usage fonctionnel de la langue (parler et interagir) plutôt que sur la connaissance théorique des règles."
+    },
+    {
+        question: "Quel type d'erreur révèle le mieux une 'hypothèse fausse' de l'apprenant sur la règle de Grammaire?",
+        options: ["L'erreur d'inattention (étourderie).", "L'erreur de compétence (due à une mauvaise compréhension ou une mauvaise généralisation).", "L'erreur de performance (due à la fatigue).", "L'erreur d'omission (oubli d'un mot)."],
+        answer: "L'erreur de compétence (due à une mauvaise compréhension ou une mauvaise généralisation).",
+        rationale: "L'erreur de compétence est systématique et reproductible, elle indique une lacune dans le savoir ou le savoir-faire acquis, souvent due à une hypothèse de règle incorrecte."
+    },
+    {
+        question: "Le rôle de l'enseignant dans le processus de 'négociation du sens' (Négociation de sens) en lecture est de:",
+        options: ["Donner la signification correcte de chaque mot inconnu.", "Guider les élèves à confronter leurs interprétations et leurs indices (preuves) tirés du texte pour arriver à un sens partagé et validé.", "Laisser l'élève seul face à son interprétation personnelle.", "Tous les choix précédents sont faux."],
+        answer: "Guider les élèves à confronter leurs interprétations et leurs indices (preuves) tirés du texte pour arriver à un sens partagé et validé.",
+        rationale: "La négociation du sens est une activité collaborative post-lecture où l'enseignant orchestre la confrontation des points de vue pour affiner la compréhension du texte en s'appuyant sur des indices factuels."
+    },
+    {
+        question: "Quel est l'objectif de 'l'apprentissage par découverte' (Apprentissage par découverte) en didactique de la langue?",
+        options: ["Laisser l'élève deviner la réponse.", "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.", "Se limiter à l'approche déductive.", "Tous les choix précédents sont faux."],
+        answer: "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.",
+        rationale: "Cette approche (souvent inductive) vise à encourager la construction active du savoir et l'autonomie intellectuelle en faisant de l'élève un 'chercheur'."
+    },
+    {
+        question: "Lors d'une activité de 'lecture silencieuse' (Lecture silencieuse), le rôle principal de l'enseignant est de:",
+        options: ["S'assurer que les élèves lisent sans faire de bruit.", "Observer les stratégies de lecture des élèves (vitesse, indices de difficultés) et préparer les questions de compréhension.", "Intervenir constamment pour corriger la posture des élèves.", "Tous les choix précédents sont faux."],
+        answer: "Observer les stratégies de lecture des élèves (vitesse, indices de difficultés) et préparer les questions de compréhension.",
+        rationale: "Pendant la lecture silencieuse, l'enseignant est observateur. Il ne s'agit pas seulement du silence, mais du travail cognitif individuel, d'où l'importance d'observer et de planifier l'évaluation de la compréhension."
+    },
+    {
+        question: "Quel est le critère d'évaluation le plus important dans une activité de 'communication orale'?",
+        options: ["La complexité du vocabulaire utilisé.", "La pertinence du message par rapport à la situation de communication et la justesse de l'acte de langage visé.", "La durée de l'intervention de l'élève.", "L'absence totale d'erreurs de grammaire."],
+        answer: "La pertinence du message par rapport à la situation de communication et la justesse de l'acte de langage visé.",
+        rationale: "L'objectif principal de l'oral est l'efficacité communicative (adéquation à la situation et au but visé), même si quelques erreurs grammaticales persistent."
+    },
+    {
+        question: "Que signifie 'l'institutionnalisation' (L'institutionnalisation) dans le cadre d'une séance de lecture/écriture?",
+        options: ["La phase de découverte du texte.", "La phase de mise en commun des découvertes et la formalisation collective des règles/savoirs construits.", "La phase de correction individuelle des erreurs.", "Tous les choix précédents sont faux."],
+        answer: "La phase de mise en commun des découvertes et la formalisation collective des règles/savoirs construits.",
+        rationale: "C'est l'étape où le savoir construit par les élèves est validé et formalisé par l'enseignant ou le groupe (souvent sous forme de règle écrite ou de résumé)."
+    },
+    {
+        question: "L'utilisation de 'l'album de jeunesse' (Album de jeunesse) dans les premières années de l'enseignement est essentielle car elle:",
+        options: ["Permet d'évaluer la mémoire de l'enfant.", "Favorise l'entrée dans la culture de l'écrit, le développement de l'imaginaire, et l'acquisition du vocabulaire en contexte narratif.", "Se limite à la lecture d'images.", "Tous les choix précédents sont faux."],
+        answer: "Favorise l'entrée dans la culture de l'écrit, le développement de l'imaginaire, et l'acquisition du vocabulaire en contexte narratif.",
+        rationale: "L'album de jeunesse, grâce à la richesse des images et du texte, est un excellent support pour le développement linguistique et culturel de l'enfant."
+    },
+    {
+        question: "La 'production d'un écrit court' (Production d'un écrit court) dans un contexte donné vise avant tout à évaluer la capacité de l'élève à:",
+        options: ["Remplir les blancs dans un texte.", "Rédiger un texte en mobilisant les ressources linguistiques nécessaires (lexique, structure) pour atteindre l'objectif de communication.", "Copier le texte donné par l'enseignant.", "Tous les choix précédents sont faux."],
+        answer: "Rédiger un texte en mobilisant les ressources linguistiques nécessaires (lexique, structure) pour atteindre l'objectif de communication.",
+        rationale: "La production d'écrit est une activité d'intégration visant l'atteinte d'un but communicatif (ex: écrire une invitation, décrire un animal, raconter une sortie)."
+    },
+    {
+        question: "Si un élève utilise le mot 'beau' pour décrire une fleur au féminin ('une belle fleur'), il s'agit d'une erreur de:",
+        options: ["Interférence syntaxique.", "Erreur d'accord en genre et en nombre (morphologique).", "Erreur sémantique.", "Tous les choix précédents sont faux."],
+        answer: "Erreur d'accord en genre et en nombre (morphologique).",
+        rationale: "L'erreur porte sur la forme du mot ('beau'/'belle') en fonction de son contexte grammatical (nom féminin), ce qui relève de la morphologie et de l'accord."
+    },
+    {
+        question: "Quel est le rôle du 'texte support' (Texte de base) dans une séance de lecture?",
+        options: ["Il sert uniquement de modèle pour la copie.", "Il est la base à partir de laquelle sont extraits et étudiés le lexique, la grammaire, la conjugaison, et les idées de fond.", "Il doit être mémorisé par cœur.", "Tous les choix précédents sont faux."],
+        answer: "Il est la base à partir de laquelle sont extraits et étudiés le lexique, la grammaire, la conjugaison, et les idées de fond.",
+        rationale: "Le texte support est l'élément central de l'unité didactique, servant de corpus pour l'étude intégrée de tous les composants de la langue."
+    },
+
+
+    // --------------------------------------------------------------------------------------
+    // القسم 6: ديداكتيك النشاط العلمي والرياضيات (20 سؤالاً إضافياً)
+    // --------------------------------------------------------------------------------------
+    {
+        question: "في ديداكتيك الرياضيات، متى يكون الانتقال من 'المحسوس' إلى 'المجرد' فعالاً؟",
+        options: ["عندما يطلب الأستاذ ذلك بشكل مباشر", "عندما يكون المتعلم قد استوعب المفهوم تماماً في المرحلة الحسية وشبه الحسية", "عندما يتم توحيد الأدوات الديداكتيكية", "كل الخيارات السابقة خاطئة"],
+        answer: "عندما يكون المتعلم قد استوعب المفهوم تماماً في المرحلة الحسية وشبه الحسية",
+        rationale: "الإسراع في الانتقال إلى المجرد (الرموز والحساب النظري) قبل استيعاب المفهوم عبر المحسوس (القطع، الرسوم) يؤدي إلى بناء معرفي هش وغير مستدام."
+    },
+    {
+        question: "ما هي الأداة الديداكتيكية الأكثر فعالية لتقويم كفاية 'حل المسائل الرياضية'؟",
+        options: ["اختبار QCM يركز على تعريف المصطلحات", "مسألة مركبة تتطلب توظيفاً متزامناً لعدة معارف ومهارات (قراءة، فهم، تحليل، حساب)", "تمرين حسابي آلي (عمودي أو أفقي)", "كل الخيارات السابقة خاطئة"],
+        answer: "مسألة مركبة تتطلب توظيفاً متزامناً لعدة معارف ومهارات (قراءة، فهم، تحليل، حساب)",
+        rationale: "حل المسائل هو النشاط الإدماجي في الرياضيات، ويتطلب قياسه وضعية إدماجية تحاكي مشكلة واقعية."
+    },
+    {
+        question: "في النشاط العلمي، ما هو الهدف من مرحلة 'المأسسة' (Institutionnalisation)؟",
+        options: ["توزيع الأدوات على المتعلمين", "تنظيم النتائج المتوصل إليها وصياغتها في شكل استنتاج علمي دقيق وقابل للتعميم", "ترك المتعلمين يعبرون عن آرائهم فقط", "كل الخيارات السابقة خاطئة"],
+        answer: "تنظيم النتائج المتوصل إليها وصياغتها في شكل استنتاج علمي دقيق وقابل للتعميم",
+        rationale: "تأتي المأسسة بعد التحقق من الفرضيات لتثبيت المعرفة العلمية الصحيحة التي تم بناؤها وتعميمها."
+    },
+    {
+        question: "لماذا يجب أن يتم 'توحيد الوحدات' (الوحدات المعيارية) بشكل متأخر نسبياً في تدريس القياس؟",
+        options: ["لأن الوحدات المعيارية سهلة جداً", "لأن المتعلم يجب أن يفهم مفهوم القياس والتقدير أولاً بالوحدات الشخصية وغير المعيارية", "لأن الوحدات المعيارية تزيد من صعوبة الحساب", "كل الخيارات السابقة خاطئة"],
+        answer: "لأن المتعلم يجب أن يفهم مفهوم القياس والتقدير أولاً بالوحدات الشخصية وغير المعيارية",
+        rationale: "يجب بناء مفهوم القياس (لماذا وكيف نقيس) باستخدام أدوات بسيطة أو غير معيارية (مثل اليد، القلم)، قبل الانتقال إلى الوحدات العالمية المجردة (متر، كيلوغرام)."
+    },
+    {
+        question: "في ديداكتيك الرياضيات، أي من المفاهيم التالية يعتبر أساساً لفهم 'التقنيات الاعتيادية للجمع والطرح'؟",
+        options: ["الحساب الذهني السريع", "التفكيك والتجميع (Décomposition et recomposition) وفهم نظام العد العشري", "الحفظ عن ظهر قلب لجدول الضرب", "كل الخيارات السابقة خاطئة"],
+        answer: "التفكيك والتجميع (Décomposition et recomposition) وفهم نظام العد العشري",
+        rationale: "التقنيات الاعتيادية (العمودية) تعتمد بشكل كامل على فهم نظام العد العشري (العشرات، الآحاد، المئات) وعمليات التفكيك والتجميع (الاحتفاظ والاستلاف)."
+    },
+    {
+        question: "ما هو الخطأ الديداكتيكي الذي يجب تجنبه عند تقديم درس حول 'دورة حياة النباتات'؟",
+        options: ["تنفيذ التجربة في المختبر", "الاكتفاء بعرض صور ورسومات دون تطبيق عملي أو ملاحظة حية", "التركيز على المفاهيم العلمية", "كل الخيارات السابقة خاطئة"],
+        answer: "الاكتفاء بعرض صور ورسومات دون تطبيق عملي أو ملاحظة حية",
+        rationale: "النشاط العلمي يتطلب 'الملاحظة المباشرة' والتجربة لترسيخ المفاهيم البيولوجية، والاكتفاء بالصور يجعل التعلم نظرياً ومجرداً."
+    },
+    {
+        question: "ما هو الهدف من 'تنويع أشكال التمثيل' (Representation) للمفهوم الرياضي الواحد؟",
+        options: ["جعل الدرس طويلاً", "تلبية حاجيات المتعلمين المختلفة (محسوس، شبه محسوس، مجرد، لغوي) لضمان الفهم الشامل", "تقليص عدد التمارين", "كل الخيارات السابقة خاطئة"],
+        answer: "تلبية حاجيات المتعلمين المختلفة (محسوس، شبه محسوس، مجرد، لغوي) لضمان الفهم الشامل",
+        rationale: "تنويع التمثيلات (مثل: قطع دينيس، الرسوم، الرموز) يخدم البيداغوجيا الفارقية ويساعد المتعلمين ذوي أنماط التعلم المختلفة على استيعاب المفهوم."
+    },
+    {
+        question: "في منهجية التقصي، يجب أن تكون 'الفرضية' مصاغة بطريقة:",
+        options: ["جذابة ومثيرة للجدل", "واضحة وقابلة للاختبار التجريبي والقياس", "مطابقة لرأي الأستاذ", "كل الخيارات السابقة خاطئة"],
+        answer: "واضحة وقابلة للاختبار التجريبي والقياس",
+        rationale: "الفرضية العلمية هي تخمين ذكي، لكن يجب أن تكون قابلة للإثبات أو الدحض عبر أدوات القياس (التحقق)."
+    },
+    {
+        question: "ما هو المعيار الأساسي لتقويم كفاية حل المسائل الرياضية في الامتحان الإشهادي؟",
+        options: ["دقة العمليات الحسابية النهائية فقط", "سلامة منهجية الحل والتنظيم واختيار الاستراتيجية المناسبة والتوظيف السليم للعمليات", "السرعة في إنجاز الحل", "كل الخيارات السابقة خاطئة"],
+        answer: "سلامة منهجية الحل والتنظيم واختيار الاستراتيجية المناسبة والتوظيف السليم للعمليات",
+        rationale: "التركيز في التقويم لا يكون فقط على النتيجة (الجواب النهائي) بل على المسار المعرفي الذي سلكه المتعلم لحل المسألة (المنهجية)."
+    },
+    {
+        question: "لتدريس مفهوم 'قابلية الأجسام للذوبان' في النشاط العلمي، ما هي المقاربة الأفضل؟",
+        options: ["الإخبار المباشر بأن الملح يذوب والسكر لا يذوب", "قيام المتعلمين بتجربة الذوبان بأنفسهم (Manipulation) مع تسجيل الملاحظات والمقارنات", "حفظ قائمة بالمواد القابلة للذوبان", "كل الخيارات السابقة خاطئة"],
+        answer: "قيام المتعلمين بتجربة الذوبان بأنفسهم (Manipulation) مع تسجيل الملاحظات والمقارنات",
+        rationale: "التجربة الذاتية (Manipulation) والملاحظة هي الوسيلة الأنجع لبناء المفاهيم العلمية بشكل حسي ومستدام."
+    },
+    {
+        question: "أي من المجالس التالية يختص بدراسة برنامج العمل السنوي للمؤسسة؟",
+        options: ["المجلس التربوي", "مجلس التدبير", "المجلس التعليمي", "المجلس التأديبي"],
+        answer: "مجلس التدبير",
+        rationale: "مجلس التدبير هو هيئة التسيير الإداري والمالي للمؤسسة، ومن أهم اختصاصاته دراسة والمصادقة على برامج العمل والميزانية."
+    },
+    {
+        question: "ما هي الوظيفة الأساسية لـ'مجلس التدبير' في التشريع التربوي؟",
+        options: ["إصدار العقوبات التأديبية في حق الأساتذة", "التسيير الإداري والمالي للمؤسسة وتقديم مقترحات لتطويرها", "تحديد المناهج والبرامج الدراسية الوطنية", "كل الخيارات السابقة خاطئة"],
+        answer: "التسيير الإداري والمالي للمؤسسة وتقديم مقترحات لتطويرها",
+        rationale: "مجلس التدبير هو الهيئة الإدارية العليا للمؤسسة، مسؤولة عن إدارة الشؤون الداخلية والمشاريع."
+    },
+    {
+        question: "ما هو الإجراء الذي يعتبر إخلالاً بواجب التحفظ المفروض على الموظف العمومي (المدرس)؟",
+        options: ["المشاركة في إضراب مشروع ومؤطر قانونياً", "الإدلاء بتصريحات علنية تنتقد المناهج التعليمية باسم الإدارة", "تقديم شكوى رسمية للسلم الإداري الأعلى حول ظروف العمل", "نشر مقالات رأي شخصية في مواضيع لا تتعلق بالعمل"],
+        answer: "الإدلاء بتصريحات علنية تنتقد المناهج التعليمية باسم الإدارة",
+        rationale: "واجب التحفظ يقتضي على الموظف العمومي الامتناع عن التعبير عن آرائه الشخصية أو انتقاداته بطريقة تمس بسير العمل أو سمعة الإدارة التعليمية، خاصةً عند التحدث باسمها."
+    },
+    {
+        question: "من هي الهيئة المسؤولة عن 'دراسة وضعية المتعلمين واتخاذ قرارات الانتقال' في نهاية الأسدوس؟",
+        options: ["مجلس التدبير", "المجلس التربوي", "مجالس الأقسام", "المجلس التعليمي"],
+        answer: "مجالس الأقسام",
+        rationale: "مجالس الأقسام هي الهيئة المخولة قانونياً لدراسة النتائج الدراسية للمتعلمين واتخاذ القرارات المتعلقة بالانتقال والتوجيه والدعم."
+    },
+    {
+        question: "أي من المهام التالية لا تدخل ضمن اختصاصات 'المجلس التربوي'؟",
+        options: ["إعداد مشاريع البرامج السنوية لأنشطة المؤسسة", "دراسة برامج عمل المجالس التعليمية والمصادقة عليها", "تنظيم الأنشطة والمسابقات الثقافية والعلمية", "تحديد العقوبات التأديبية النهائية في حق التلاميذ"],
+        answer: "تحديد العقوبات التأديبية النهائية في حق التلاميذ",
+        rationale: "تحديد العقوبات النهائية يقع ضمن اختصاص 'مجلس الانضباط/مجلس القسم' في سياق تأديبي، وليس ضمن مهام المجلس التربوي الذي يركز على الجانب البيداغوجي والتنظيمي للأنشطة."
+    },
+    {
+        question: "ما هي الوظيفة الأساسية لـ'الميثاق' أو 'القانون الداخلي للفصل'؟",
+        options: ["تحديد التوقعات المسبقة من طرف الأستاذ فقط", "مجموعة القواعد التي يضعها المتعلمون والأستاذ لتنظيم الحياة داخل الفصل وإرساء الضبط الذاتي", "جدول توزيع الدروس على مدار السنة", "كل الخيارات السابقة خاطئة"],
+        answer: "مجموعة القواعد التي يضعها المتعلمون والأستاذ لتنظيم الحياة داخل الفصل وإرساء الضبط الذاتي",
+        rationale: "ميثاق الفصل هو أداة ديداكتيكية-تربوية تهدف إلى إشراك المتعلمين في وضع القوانين، مما يعزز انضباطهم الذاتي ويُرسخ القيم الديمقراطية."
+    },
+    {
+        question: "يشير مفهوم 'التنشيط' في سياق القسم إلى:",
+        options: ["التركيز على التلقين فقط", "مجموعة التقنيات التي يستخدمها الأستاذ لخلق جو من التفاعل والمشاركة النشطة بين المتعلمين", "إصلاح المرافق المدرسية", "كتابة الواجبات المنزلية"],
+        answer: "مجموعة التقنيات التي يستخدمها الأستاذ لخلق جو من التفاعل والمشاركة النشطة بين المتعلمين",
+        rationale: "التنشيط هو فن إدارة التفاعل والمناقشة داخل الفصل لتعميق التعلم وتفجير طاقات المتعلمين (Techniques d'animation)."
+    },
+    {
+        question: "ما هو الإجراء الذي يضمن تفعيل 'التفويض' (Délégation) في التعلم؟",
+        options: ["ترك المتعلمين يعملون دون إشراف", "انتقال مسؤولية التخطيط والتقييم من الأستاذ إلى المتعلمين بشكل تدريجي وموجه", "الاعتماد على التقويم الخارجي فقط", "كل الخيارات السابقة خاطئة"],
+        answer: "انتقال مسؤولية التخطيط والتقييم من الأستاذ إلى المتعلمين بشكل تدريجي وموجه",
+        rationale: "التفويض يعني التنازل التدريجي عن السلطة المعرفية والتنظيمية للمتعلم (Self-regulation) ليصبح مستقلاً ومسؤولاً عن تعلمه."
+    },
+    
 ];
 
 // ==========================================================
