@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بنك أسئلة الكفاءة التعليمية (120 سؤال) - إعداد [اسمك بالكامل]</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; direction: rtl; text-align: right; padding: 20px; background-color: #f4f4f9; }
+        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 30px; }
+        .logo { max-width: 100px; height: auto; margin-bottom: 15px; border-radius: 50%; }
+        /* تصميم بطاقات المراجعة (Flashcards) */
+        .flashcard-container {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: background-color 0.3s;
+        }
+        .flashcard-container:hover {
+            background-color: #f9f9f9;
+        }
+        .card-front h4 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .card-back {
+            padding-top: 10px;
+            border-top: 1px dashed #ddd;
+            margin-top: 10px;
+        }
+        /* أزرار التنقل */
+        .pagination-controls button {
+            padding: 10px 20px;
+            background-color: #e60023; /* لون جذاب */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .pagination-controls button:disabled {
+            background-color: #ccc;
+            cursor: default;
+        }
+        #results { margin-top: 20px; padding: 15px; border-radius: 6px; background-color: #e6ffe6; border: 1px solid #ccebcc; display: none; }
+        footer { text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #ccc; font-size: 0.9em; color: #666; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="logo.jpg" alt="شعار الأستاذ" class="logo"> 
+        <h1>بنك أسئلة الكفاءة المهنية (120 سؤال مُركّب)</h1>
+        <h2>إعداد وتقديم: الأستاذ/ة [اسمك بالكامل]</h2>
+        <p>اختبار شامل وموجه لأساتذة الابتدائي، مقسم على 6 صفحات لمراجعة فعالة.</p>
+    </div>
+    
+    <div id="quiz-container">
+        </div>
+    
+    <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
+        <button id="prevBtn" onclick="changePage(-1)" disabled>السابق</button>
+        <span id="pageInfo">الصفحة 1 من 6</span>
+        <button id="nextBtn" onclick="changePage(1)">التالي</button>
+    </div>
+
+    <button onclick="submitQuiz()" style="display: none; margin-top: 20px;" id="submitBtn">إنهاء الاختبار وعرض النتيجة</button>
+
+    <div id="results">
+        <h2>نتيجتك:</h2>
+        <p>لقد حصلت على <span id="score"></span> من 120 إجابة صحيحة.</p>
+        <div id="feedback"></div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 - جميع الحقوق محفوظة: [اسمك بالكامل]. لطلب نسخة PDF شاملة، يرجى دعمنا عبر [رابط PayPal].</p>
+</footer>
+
+<script src="quiz.js"></script> 
+</body>
+</html>
