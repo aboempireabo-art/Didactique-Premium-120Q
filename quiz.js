@@ -736,8 +736,262 @@ const quizQuestions = [
         answer: "انتقال مسؤولية التخطيط والتقييم من الأستاذ إلى المتعلمين بشكل تدريجي وموجه",
         rationale: "التفويض يعني التنازل التدريجي عن السلطة المعرفية والتنظيمية للمتعلم (Self-regulation) ليصبح مستقلاً ومسؤولاً عن تعلمه."
     },
+    // START: Section 3 - French Didactics (Questions 41-60)
+    {
+        question: "Quelle approche privilégie-t-on pour que l'élève construise la règle de Conjugaison/Grammaire par lui-même?",
+        options: ["L'approche déductive", "L'approche explicite et systématique (méthode frontale)", "L'approche inductive (qui part des exemples concrets)", "L'approche comportementale basée sur la répétition", "Tous les choix précédents sont faux"],
+        answer: "L'approche inductive (qui part des exemples concrets)",
+        rationale: "L'approche inductive est conforme au courant constructiviste, elle permet à l'élève de déduire la règle (institutionnalisation) à partir de l'analyse de corpus linguistiques (exemples)."
+    },
+    {
+        question: "Quelle est la compétence linguistique la première à être développée chez l'enfant dans l'apprentissage du français?",
+        options: ["La production écrite (Écrire)", "La lecture (Lire)", "La compréhension de l'oral (l'écoute)", "L'expression orale (Parler)", "Tous les choix précédents sont faux"],
+        answer: "La compréhension de l'oral (l'écoute)",
+        rationale: "L'ordre naturel d'acquisition de la langue est : Compréhension Orale (Écouter) -> Production Orale (Parler) -> Compréhension Écrite (Lire) -> Production Écrite (Écrire)."
+    },
+    {
+        question: "Quel est le rôle d'un 'critère de réussite' (Critère de performance) dans l'évaluation d'une production écrite?",
+        options: ["Il définit le temps imparti pour réaliser la tâche.", "C'est la note finale attribuée à l'élève.", "C'est un indicateur précis qui spécifie la qualité attendue du produit final (le texte écrit).", "Il permet de classer les élèves du meilleur au moins bon.", "Tous les choix précédents sont faux"],
+        answer: "C'est un indicateur précis qui spécifie la qualité attendue du produit final (le texte écrit).",
+        rationale: "Le critère de réussite est un élément de la grille d'évaluation qui précise les attentes de qualité pour la production de l'apprenant (ex: 'le texte comporte au moins 5 phrases')."
+    },
+    {
+        question: "Si un élève a des difficultés persistantes à accorder le participe passé avec l'auxiliaire 'être', de quelle erreur s'agit-il principalement?",
+        options: ["Une erreur de compréhension du texte.", "Une erreur de prononciation.", "Une erreur de compétence grammaticale et de conjugaison (règle de l'accord).", "Une erreur de lexique (vocabulaire).", "Tous les choix précédents sont faux"],
+        answer: "Une erreur de compétence grammaticale et de conjugaison (règle de l'accord).",
+        rationale: "L'accord du participe passé est une règle morphosyntaxique, sa non-maîtrise relève d'une lacune dans la compétence grammaticale."
+    },
+    {
+        question: "L'objectif principal de la lecture à haute voix par les élèves en classe est de:",
+        options: ["Vérifier la mémorisation du texte.", "Évaluer la compréhension profonde du texte.", "Améliorer la fluidité, l'intonation, et la prosodie (respect du rythme et de la ponctuation).", "Remplacer l'écoute du texte par le maître.", "Tous les choix précédents sont faux"],
+        answer: "Améliorer la fluidité, l'intonation, et la prosodie (respect du rythme et de la ponctuation).",
+        rationale: "La lecture à haute voix (lecture oralisée) vise le développement des mécanismes de décodage et d'expression orale du texte (prosodie et fluidité)."
+    },
+    {
+        question: "Quelle est la principale caractéristique de l'évaluation par critères?",
+        options: ["Comparer l'élève à la moyenne de la classe.", "Évaluer l'élève par rapport à des indicateurs de performance (critères) prédéfinis liés aux objectifs d'apprentissage.", "Se concentrer uniquement sur les aspects quantitatifs.", "Tous les choix précédents sont faux"],
+        answer: "Évaluer l'élève par rapport à des indicateurs de performance (critères) prédéfinis liés aux objectifs d'apprentissage.",
+        rationale: "L'évaluation par critères se focalise sur ce que l'élève a acquis ou non (maîtrise des critères de réussite), et non sur sa position par rapport à ses pairs (évaluation normative)."
+    },
+    {
+        question: "L'activité de 'dictée négociée' (Dictée négociée) a pour objectif principal de:",
+        options: ["S'assurer que les élèves copient le texte à l'identique.", "Développer la réflexion grammaticale et l'auto-correction par la discussion et la justification des choix orthographiques et grammaticaux en groupe.", "Évaluer la vitesse d'écriture.", "Tous les choix précédents sont faux"],
+        answer: "Développer la réflexion grammaticale et l'auto-correction par la discussion et la justification des choix orthographiques et grammaticaux en groupe.",
+        rationale: "La dictée négociée est une activité de co-construction des savoirs qui utilise l'erreur collective comme moteur de réflexion grammaticale et d'apprentissage."
+    },
+    {
+        question: "Le terme 'compétence transversale' (Compétence transversale) désigne une compétence qui:",
+        options: ["Est spécifique à l'enseignement du français.", "S'applique à plusieurs disciplines et situations de la vie courante (ex: la communication, la méthodologie, l'autonomie).", "Est évaluée uniquement à l'examen final.", "Ne nécessite pas d'enseignement explicite."],
+        answer: "S'applique à plusieurs disciplines et situations de la vie courante (ex: la communication, la méthodologie, l'autonomie).",
+        rationale: "Les compétences transversales, par opposition aux compétences disciplinaires, sont mobilisables dans une grande variété de contextes (en classe et dans la vie)."
+    },
+    {
+        question: "L'utilisation de 'l'album de jeunesse' (Album de jeunesse) dans les premières années de l'enseignement est essentielle car elle:",
+        options: ["Permet d'évaluer la mémoire de l'enfant.", "Favorise l'entrée dans la culture de l'écrit, le développement de l'imaginaire, et l'acquisition du vocabulaire en contexte narratif.", "Se limite à la lecture d'images.", "Tous les choix précédents sont faux"],
+        answer: "Favorise l'entrée dans la culture de l'écrit, le développement de l'imaginaire, et l'acquisition du vocabulaire en contexte narratif.",
+        rationale: "L'album de jeunesse, grâce à la richesse des images et du texte, est un excellent support pour le développement linguistique et culturel de l'enfant."
+    },
+    {
+        question: "Comment doit-on enseigner l'Orthographe d'usage (Orthographe lexicale) au cycle primaire?",
+        options: ["Par la mémorisation intensive de règles complexes.", "Par la répétition d'exercices isolés sans contexte.", "Par des activités de production en contexte et l'utilisation de listes de mots outils fréquents.", "Tous les choix précédents sont faux"],
+        answer: "Par des activités de production en contexte et l'utilisation de listes de mots outils fréquents.",
+        rationale: "L'orthographe lexicale s'acquiert principalement par l'exposition fréquente et la pratique en situation réelle (contexte) à l'aide d'outils (mots outils, dictionnaire)."
+    },
+    {
+        question: "Quel rôle joue 'l'hétérogénéité' (Hétérogénéité) des apprenants dans une classe de langue selon la pédagogie différenciée?",
+        options: ["Un obstacle majeur à éviter absolument.", "Une ressource à exploiter pour l'apprentissage mutuel (tutoring) et l'enrichissement des stratégies de résolution.", "Un facteur justifiant l'uniformité des activités.", "Tous les choix précédents sont faux"],
+        answer: "Une ressource à exploiter pour l'apprentissage mutuel (tutoring) et l'enrichissement des stratégies de résolution.",
+        rationale: "L'hétérogénéité est vue comme une richesse permettant la différenciation et l'entraide (tutorat) où les élèves apprennent les uns des autres."
+    },
+    {
+        question: "Quel type d'erreur révèle le mieux une 'hypothèse fausse' de l'apprenant sur la règle de Grammaire?",
+        options: ["L'erreur d'inattention (étourderie).", "L'erreur de compétence (due à une mauvaise compréhension ou une mauvaise généralisation).", "L'erreur de performance (due à la fatigue).", "L'erreur d'omission (oubli d'un mot).", "Tous les choix précédents sont faux"],
+        answer: "L'erreur de compétence (due à une mauvaise compréhension ou une mauvaise généralisation).",
+        rationale: "L'erreur de compétence est systématique et reproductible, elle indique une lacune dans le savoir ou le savoir-faire acquis, souvent due à une hypothèse de règle incorrecte."
+    },
+    {
+        question: "Quel est le rôle de 'l'apprentissage par découverte' (Apprentissage par découverte) en didactique de la langue?",
+        options: ["Laisser l'élève deviner la réponse.", "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.", "Se limiter à l'approche déductive.", "Tous les choix précédents sont faux"],
+        answer: "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.",
+        rationale: "Cette approche (souvent inductive) vise à encourager la construction active du savoir et l'autonomie intellectuelle en faisant de l'élève un 'chercheur'."
+    },
+    {
+        question: "Quel est l'objectif de 'l'apprentissage par découverte' (Apprentissage par découverte) en didactique de la langue?",
+        options: ["Laisser l'élève deviner la réponse.", "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.", "Se limiter à l'approche déductive.", "Tous les choix précédents sont faux"],
+        answer: "Amener l'élève à découvrir la règle ou le concept linguistique de manière autonome, à partir d'exemples guidés.",
+        rationale: "Cette approche (souvent inductive) vise à encourager la construction active du savoir et l'autonomie intellectuelle en faisant de l'élève un 'chercheur'."
+    },
+    {
+        question: "L'objectif principal d'une activité de 'production d'un écrit court' est d'évaluer la capacité de l'élève à:",
+        options: ["Remplir les blancs dans un texte.", "Rédiger un texte en mobilisant les ressources linguistiques nécessaires (lexique, structure) pour atteindre l'objectif de communication.", "Copier le texte donné par l'enseignant.", "Tous les choix précédents sont faux"],
+        answer: "Rédiger un texte en mobilisant les ressources linguistiques nécessaires (lexique, structure) pour atteindre l'objectif de communication.",
+        rationale: "La production d'écrit est une activité d'intégration visant l'atteinte d'un but communicatif (ex: écrire une invitation, décrire un animal, raconter une sortie)."
+    },
+    {
+        question: "Dans le cadre de l'approche communicative, l'apprentissage du français vise principalement:",
+        options: ["La maîtrise parfaite de la syntaxe.", "Le développement de l'efficacité communicationnelle et de l'aisance dans les situations réelles.", "La connaissance de l'histoire de la langue française.", "La production de textes littéraires complexes."],
+        answer: "Le développement de l'efficacité communicationnelle et de l'aisance dans les situations réelles.",
+        rationale: "L'approche communicative met l'accent sur l'usage fonctionnel de la langue (parler et interagir) plutôt que sur la connaissance théorique des règles."
+    },
+    {
+        question: "Le rôle de l'enseignant dans le processus de 'négociation du sens' (Négociation de sens) en lecture est de:",
+        options: ["Donner la signification correcte de chaque mot inconnu.", "Guider les élèves à confronter leurs interprétations et leurs indices (preuves) tirés du texte pour arriver à un sens partagé et validé.", "Laisser l'élève seul face à son interprétation personnelle.", "Tous les choix précédents sont faux"],
+        answer: "Guider les élèves à confronter leurs interprétations et leurs indices (preuves) tirés du texte pour arriver à un sens partagé et validé.",
+        rationale: "La négociation du sens est une activité collaborative post-lecture où l'enseignant orchestre la confrontation des points de vue pour affiner la compréhension du texte en s'appuyant sur des indices factuels."
+    },
+    {
+        question: "Quel est le critère d'évaluation le plus important dans une activité de 'communication orale'?",
+        options: ["La complexité du vocabulaire utilisé.", "La pertinence du message par rapport à la situation de communication et la justesse de l'acte de langage visé.", "La durée de l'intervention de l'élève.", "L'absence totale d'erreurs de grammaire.", "Tous les choix précédents sont faux"],
+        answer: "La pertinence du message par rapport à la situation de communication et la justesse de l'acte de langage visé.",
+        rationale: "L'objectif principal de l'oral est l'efficacité communicative (adéquation à la situation et au but visé), même si quelques erreurs grammaticales persistent."
+    },
+    {
+        question: "Que signifie 'l'institutionnalisation' (L'institutionnalisation) dans le cadre d'une séance de lecture/écriture?",
+        options: ["La phase de découverte du texte.", "La phase de mise en commun des découvertes et la formalisation collective des règles/savoirs construits.", "La phase de correction individuelle des erreurs.", "Tous les choix précédents sont faux"],
+        answer: "La phase de mise en commun des découvertes et la formalisation collective des règles/savoirs construits.",
+        rationale: "C'est l'étape où le savoir construit par les élèves est validé et formalisé par l'enseignant ou le groupe (souvent sous forme de règle écrite ou de résumé)."
+    },
+    {
+        question: "Dans le cadre de la lecture, que signifie la 'lecture des indices paratextuels'?",
+        options: ["La lecture rapide du texte.", "L'analyse des éléments qui entourent le texte (titre, illustration, source) pour formuler des hypothèses de sens.", "Le déchiffrage des mots inconnus.", "Tous les choix précédents sont faux"],
+        answer: "L'analyse des éléments qui entourent le texte (titre, illustration, source) pour formuler des hypothèses de sens.",
+        rationale: "Les indices paratextuels (périphériques) sont essentiels pour activer les connaissances et permettre la phase de 'pré-lecture' ou de 'construction des hypothèses'."
+    },
+    // END: Section 3 - French Didactics (Total 20 questions)
+
+    // --------------------------------------------------------------------------------------
+    // القسم 4: ديداكتيك النشاط العلمي والرياضيات (20 سؤالاً إضافياً)
+    // --------------------------------------------------------------------------------------
+    // START: Section 4 - Sciences & Math Didactics (Questions 61-80)
+    {
+        question: "ما هو الهدف الرئيسي من مقاربة 'التقصي' (L'investigation) في تدريس النشاط العلمي؟",
+        options: ["تلقين المعلومات الجاهزة للمتعلمين", "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه", "الاعتماد فقط على التجارب المخبرية دون الحاجة إلى التفكير", "ملء دفتر التمارين بأسرع وقت ممكن", "كل الخيارات السابقة خاطئة"],
+        answer: "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه",
+        rationale: "منهجية التقصي هي تطبيق للمنهج العلمي على الوضعيات التعليمية، وهي تهدف إلى بناء المعرفة عبر البحث والتحقق الذاتي."
+    },
+    {
+        question: "ما هو المبدأ الديداكتيكي الذي يوجه تدريس الهندسة في الابتدائي؟",
+        options: ["الاستدلال الاستنباطي المباشر", "الاعتماد على النشاط اليدوي (Manipulation) والتمثيل الحسي والرسومات قبل الانتقال للقاعدة المجردة", "التلقين النظري للتعريفات الهندسية", "كل الخيارات السابقة خاطئة"],
+        answer: "الاعتماد على النشاط اليدوي (Manipulation) والتمثيل الحسي والرسومات قبل الانتقال للقاعدة المجردة",
+        rationale: "في الهندسة، يجب البدء بالنشاط العملي والتحسس بالأشكال الهندسية (المحسوس) قبل الانتقال إلى الخصائص المجردة والقوانين الرياضية."
+    },
+    {
+        question: "يشير مفهوم 'النمذجة الرياضية' (Modélisation) إلى:",
+        options: ["التمثيل البياني للمعادلات", "استخدام المفاهيم الرياضية لحل وضعيات مستمدة من الواقع وربطها به", "حفظ القوانين الرياضية عن ظهر قلب", "كل الخيارات السابقة خاطئة"],
+        answer: "استخدام المفاهيم الرياضية لحل وضعيات مستمدة من الواقع وربطها به",
+        rationale: "النمذجة هي عملية ترجمة مشكلة واقعية إلى لغة رياضية (معادلة أو خطاطة) وحلها ثم تفسير النتيجة في السياق الواقعي."
+    },
+    {
+        question: "في منهجية التقصي العلمي، ما هي الخطوة التي تأتي مباشرة بعد 'صياغة الفرضيات'؟",
+        options: ["الملاحظة الأولية", "المأسسة واستخلاص النتائج", "التجريب أو التحقق من الفرضيات", "تحديد المكتسبات القبلية", "كل الخيارات السابقة خاطئة"],
+        answer: "التجريب أو التحقق من الفرضيات",
+        rationale: "بعد وضع التخمينات (الفرضيات)، يجب الانتقال إلى التحقق العملي (التجريب أو البحث الوثائقي) لإثبات أو نفي هذه الفرضيات."
+    },
+    {
+        question: "أي من عناصر المسألة الرياضية يُعتبر أهم عامل في تطوير التفكير النقدي لدى المتعلم؟",
+        options: ["المعطيات الكافية والواضحة فقط", "المعطيات المشوشة والزائدة (Inutile)", "السؤال النهائي الذي يتطلب عملية واحدة", "كل الخيارات السابقة خاطئة"],
+        answer: "المعطيات المشوشة والزائدة (Inutile)",
+        rationale: "تتطلب المعطيات المشوشة من المتعلم مهارة التحليل والانتقاء لتحديد المعطيات ذات الصلة، وهذا يعزز التفكير النقدي."
+    },
+    {
+        question: "ما هو الهدف من 'الحساب الذهني' المنتظم في بداية حصص الرياضيات؟",
+        options: ["قياس قدرة المتعلمين على الحفظ", "تطوير السرعة والدقة في العمليات الحسابية وتقوية الذاكرة العاملة والتركيز", "إضاعة وقت الحصة", "كل الخيارات السابقة خاطئة"],
+        answer: "تطوير السرعة والدقة في العمليات الحسابية وتقوية الذاكرة العاملة والتركيز",
+        rationale: "الحساب الذهني يعمل على تدريب الدماغ على المعالجة السريعة والفعالة للأرقام ويقوي مهارات الحساب الأساسية."
+    },
+    {
+        question: "عند تدريس مفهوم 'العدد السالب' لأول مرة، ما هو التمثل الأفضل لربطه بالواقع؟",
+        options: ["شرح القاعدة الجبرية مباشرة", "استخدام سياق حسي ومعروف (مثل: درجة الحرارة تحت الصفر أو العمق والارتفاع)", "البدء بإجراء عمليات الضرب والقسمة للأعداد السالبة", "كل الخيارات السابقة خاطئة"],
+        answer: "استخدام سياق حسي ومعروف (مثل: درجة الحرارة تحت الصفر أو العمق والارتفاع)",
+        rationale: "يجب ربط المفاهيم الرياضية المجردة (مثل الأعداد السالبة) بسياق حسي من الواقع (درجة الحرارة أو رصيد البنك) لتبسيطها للمتعلم."
+    },
+    {
+        question: "ما هي الغاية من إدماج الجانب التكنولوجي (TIC) في تدريس النشاط العلمي؟",
+        options: ["تزيين العرض فقط", "استبدال الأستاذ بالآلة", "إثراء الشرح وتوفير محاكاة لظواهر يصعب ملاحظتها مباشرة (كـ دورة المياه أو الزلازل)", "مضاعفة عدد التمارين المنزلية"],
+        answer: "إثراء الشرح وتوفير محاكاة لظواهر يصعب ملاحظتها مباشرة (كـ دورة المياه أو الزلازل)",
+        rationale: "تستخدم التكنولوجيا لتمثيل الظواهر المعقدة (المحاكاة) التي لا يمكن إجراؤها في الفصل، مما يعزز الفهم البصري للعمليات العلمية."
+    },
+    {
+        question: "ما هو الهدف الرئيسي من مقاربة 'التقصي' (L'investigation) في تدريس النشاط العلمي؟",
+        options: ["تلقين المعلومات الجاهزة للمتعلمين", "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه", "الاعتماد فقط على التجارب المخبرية دون الحاجة إلى التفكير", "ملء دفتر التمارين بأسرع وقت ممكن", "كل الخيارات السابقة خاطئة"],
+        answer: "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه",
+        rationale: "منهجية التقصي هي تطبيق للمنهج العلمي على الوضعيات التعليمية، وهي تهدف إلى بناء المعرفة عبر البحث والتحقق الذاتي."
+    },
+    {
+        question: "ما هو المعيار الأساسي لتمييز فرضية جيدة عن فرضية غير جيدة في منهجية التقصي العلمي؟",
+        options: ["أن تكون الفرضية طويلة ومعقدة", "أن تكون الفرضية قابلة للاختبار والتحقق (Vérifiable) من خلال التجربة أو الملاحظة", "أن تكون الفرضية مطابقة تماماً لإجابة الأستاذ", "أن تكون الفرضية غريبة وغير متوقعة", "كل الخيارات السابقة خاطئة"],
+        answer: "أن تكون الفرضية قابلة للاختبار والتحقق (Vérifiable) من خلال التجربة أو الملاحظة",
+        rationale: "الفرضية العلمية يجب أن تكون قابلة للدحض أو الإثبات عبر خطوات منهجية، وإلا فهي مجرد تخمين غير علمي."
+    },
+    {
+        question: "ما هو الدور الديداكتيكي للمحاكاة (Simulation) في تدريس ظواهر علمية معقدة؟",
+        options: ["استبدال التفسير الشفوي بالتفسير الحركي", "مساعدة المتعلم على تمثيل الظاهرة وتصورها ذهنياً وحسياً لفهمها بشكل أعمق", "تقويم المتعلمين في نهاية الحصة", "تقديم معلومات تاريخية حول الظاهرة", "كل الخيارات السابقة خاطئة"],
+        answer: "مساعدة المتعلم على تمثيل الظاهرة وتصورها ذهنياً وحسياً لفهمها بشكل أعمق",
+        rationale: "المحاكاة (أو النمذجة) تساعد على تكسير المفاهيم المجردة وتصويرها بطريقة تفاعلية لتعزيز البناء المعرفي."
+    },
+    {
+        question: "ما هو الفرق بين 'الملاحظة' و'التجربة' في المنهج العلمي المعتمد؟",
+        options: ["لا يوجد فرق، فكلاهما مصطلح مرادف للآخر", "الملاحظة سلبية (مراقبة الظاهرة كما هي)، والتجربة إيجابية (إحداث تغييرات متعمدة في الظاهرة لدراسة نتائجها)", "التجربة تتم في القسم، والملاحظة تتم في المختبر", "كل الخيارات السابقة خاطئة"],
+        answer: "الملاحظة سلبية (مراقبة الظاهرة كما هي)، والتجربة إيجابية (إحداث تغييرات متعمدة في الظاهرة لدراسة نتائجها)",
+        rationale: "التجربة هي تغيير متعمد للظروف (العوامل) لمراقبة تأثيرها، بينما الملاحظة هي رصد ورصد الظاهرة كما تحدث بشكل طبيعي."
+    },
+    {
+        question: "عند تدريس مفهوم الحفظ والصحة (التغذية)، ما هي المقاربة الأفضل لجعل التعلم وظيفياً؟",
+        options: ["الاكتفاء بتصنيف الأغذية حسب نوعها", "ربط المفهوم بحياة المتعلم اليومية (وجبة الإفطار مثلاً) وتعديل سلوكه الغذائي", "إعطاء قائمة من الأمراض المتعلقة بسوء التغذية", "الطلب من المتعلمين رسم أعضاء الجهاز الهضمي", "كل الخيارات السابقة خاطئة"],
+        answer: "ربط المفهوم بحياة المتعلم اليومية (وجبة الإفطار مثلاً) وتعديل سلوكه الغذائي",
+        rationale: "لجعل التعلم وظيفياً (أي قابلاً للتطبيق)، يجب ربطه بالممارسات والسياقات الحياتية اليومية للمتعلم."
+    },
+    {
+        question: "لماذا لا ينبغي أن تكون التجربة العلمية (Manipulation) هي أول خطوة في الدرس؟",
+        options: ["لأنها قد تسبب فوضى في القسم", "لأن التجربة يجب أن تأتي لتأكيد أو نفي فرضية سابقة، ويجب أن يسبقها التساؤل وصياغة الفرضيات", "لأن المتعلمين لا يحبون التجارب", "كل الخيارات السابقة خاطئة"],
+        answer: "لأن التجربة يجب أن تأتي لتأكيد أو نفي فرضية سابقة، ويجب أن يسبقها التساؤل وصياغة الفرضيات",
+        rationale: "منهج التقصي يبدأ بإثارة التساؤل، يليه وضع التخمينات (الفرضيات)، ثم يأتي دور التجريب لاختبار تلك الفرضيات."
+    },
+    {
+        question: "ما هو العنصر الذي يجب أن يتضمنه تقويم كفاية في النشاط العلمي؟",
+        options: ["أسئلة نظرية مباشرة حول التعريفات", "وضعية مركبة تتطلب من المتعلم توظيف معارفه ومهاراته لإيجاد حل أو إجراء تحقيق علمي", "اختبار القدرة على حفظ أسماء العلماء", "سؤال حول تاريخ اكتشاف الظاهرة", "كل الخيارات السابقة خاطئة"],
+        answer: "وضعية مركبة تتطلب من المتعلم توظيف معارفه ومهاراته لإيجاد حل أو إجراء تحقيق علمي",
+        rationale: "تقويم الكفاية يتطلب بالضرورة وضعية إدماجية (Situation d'intégration) تتطلب تجنيد الموارد في سياق مركب، وليس مجرد استظهار للمعلومات."
+    },
+    {
+        question: "ما هي الأداة الديداكتيكية الأكثر فعالية لتقويم كفاية 'حل المسائل الرياضية'؟",
+        options: ["اختبار QCM يركز على تعريف المصطلحات", "مسألة مركبة تتطلب توظيفاً متزامناً لعدة معارف ومهارات (قراءة، فهم، تحليل، حساب)", "تمرين حسابي آلي (عمودي أو أفقي)", "كل الخيارات السابقة خاطئة"],
+        answer: "مسألة مركبة تتطلب توظيفاً متزامناً لعدة معارف ومهارات (قراءة، فهم، تحليل، حساب)",
+        rationale: "حل المسائل هو النشاط الإدماجي في الرياضيات، ويتطلب قياسه وضعية إدماجية تحاكي مشكلة واقعية."
+    },
+    {
+        question: "ما هو الهدف من 'تنويع أشكال التمثيل' (Representation) للمفهوم الرياضي الواحد؟",
+        options: ["جعل الدرس طويلاً", "تلبية حاجيات المتعلمين المختلفة (محسوس، شبه محسوس، مجرد، لغوي) لضمان الفهم الشامل", "تقليص عدد التمارين", "كل الخيارات السابقة خاطئة"],
+        answer: "تلبية حاجيات المتعلمين المختلفة (محسوس، شبه محسوس، مجرد، لغوي) لضمان الفهم الشامل",
+        rationale: "تنويع التمثيلات (مثل: قطع دينيس، الرسوم، الرموز) يخدم البيداغوجيا الفارقية ويساعد المتعلمين ذوي أنماط التعلم المختلفة على استيعاب المفهوم."
+    },
+    {
+        question: "في ديداكتيك الرياضيات، أي من المفاهيم التالية يعتبر أساساً لفهم 'التقنيات الاعتيادية للجمع والطرح'؟",
+        options: ["الحساب الذهني السريع", "التفكيك والتجميع (Décomposition et recomposition) وفهم نظام العد العشري", "الحفظ عن ظهر قلب لجدول الضرب", "كل الخيارات السابقة خاطئة"],
+        answer: "التفكيك والتجميع (Décomposition et recomposition) وفهم نظام العد العشري",
+        rationale: "التقنيات الاعتيادية (العمودية) تعتمد بشكل كامل على فهم نظام العد العشري (العشرات، الآحاد، المئات) وعمليات التفكيك والتجميع (الاحتفاظ والاستلاف)."
+    },
+    {
+        question: "ما هو المعيار الأساسي لتقويم كفاية حل المسائل الرياضية في الامتحان الإشهادي؟",
+        options: ["دقة العمليات الحسابية النهائية فقط", "سلامة منهجية الحل والتنظيم واختيار الاستراتيجية المناسبة والتوظيف السليم للعمليات", "السرعة في إنجاز الحل", "كل الخيارات السابقة خاطئة"],
+        answer: "سلامة منهجية الحل والتنظيم واختيار الاستراتيجية المناسبة والتوظيف السليم للعمليات",
+        rationale: "التركيز في التقويم لا يكون فقط على النتيجة (الجواب النهائي) بل على المسار المعرفي الذي سلكه المتعلم لحل المسألة (المنهجية)."
+    },
+    {
+        question: "ما هو الهدف الرئيسي من مقاربة 'التقصي' (L'investigation) في تدريس النشاط العلمي؟",
+        options: ["تلقين المعلومات الجاهزة للمتعلمين", "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه", "الاعتماد فقط على التجارب المخبرية دون الحاجة إلى التفكير", "ملء دفتر التمارين بأسرع وقت ممكن", "كل الخيارات السابقة خاطئة"],
+        answer: "جعل المتعلم يتبع مساراً علمياً منظماً لاكتشاف المعارف والتحقق منها بنفسه",
+        rationale: "منهجية التقصي هي تطبيق للمنهج العلمي على الوضعيات التعليمية، وهي تهدف إلى بناء المعرفة عبر البحث والتحقق الذاتي."
+    }
+    // END: Section 4 - Sciences & Math Didactics (Total 20 questions)
+]; // لا تضع فاصلة هنا لأنك ستلصق الكود في النهاية
+
+// ==========================================================
+// يجب لصق الكود أعلاه في نهاية مصفوفة quizQuestions
+// ثم التأكد من وجود دوال المنطق والتحكم في الصفحات (generateQuiz، submitQuiz، إلخ)
+// ==========================================================
     
-];
+
 
 // ==========================================================
 // الدوال (Functions) - الكود المنطقي
