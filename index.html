@@ -3,128 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اختبار الكفاءة المهنية - مدونة الكفاية التربوية</title>
+    <!-- تم تحديث العنوان ليتضمن اسم المدونة -->
+    <title>بنك أسئلة الكفاءة المهنية (120 سؤال) - إعداد [مدونة أبوبكر]</title>
     <style>
-        body { font-family: 'Arial', sans-serif; direction: rtl; text-align: right; padding: 20px; background-color: #f4f4f9; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .header { text-align: center; margin-bottom: 30px; }
-        .logo { max-width: 100px; height: auto; margin-bottom: 15px; border-radius: 50%; }
-        .question-box { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 6px; }
-        .options label { display: block; margin: 10px 0; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.3s; }
-        .options label:hover { background-color: #eee; }
-        #results { margin-top: 20px; padding: 15px; border-radius: 6px; background-color: #e6ffe6; border: 1px solid #ccebcc; display: none; }
-        button { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s; }
-        button:hover { background-color: #0056b3; }
-        
-        /* تصميم خاص لمنطقة الدعم والتواصل */
-        .support-area { 
-            margin-top: 20px; 
-            padding: 15px; 
-            background-color: #f0f0f5; 
-            border-radius: 6px; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center;
-            border: 1px solid #ddd;
+        body { 
+            font-family: 'Arial', sans-serif; 
+            direction: rtl; 
+            text-align: right; 
+            padding: 20px; 
+            background-color: #f0f4f8; /* خلفية أفتح وأكثر هدوءًا */
         }
-        .support-area p {
-            margin-bottom: 10px;
-            color: #333;
+        .container { 
+            max-width: 850px; 
+            margin: auto; 
+            background: #fff; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1); /* ظل أعمق لاحترافية أكبر */
+        }
+        .header { 
             text-align: center; 
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #e60023; /* شريط فاصل باللون الجذاب */
         }
-        .support-area a {
-            color: #007bff; /* لون أزرق للرابط */
-            text-decoration: none; /* إزالة الخط تحت الرابط */
-            font-weight: bold;
+        .logo { 
+            max-width: 100px; 
+            height: auto; 
+            margin-bottom: 15px; 
+            border-radius: 50%; /* شكل دائري للشعار */
+            border: 2px solid #333;
         }
-        .support-area a:hover {
-            text-decoration: underline; /* إظهار الخط عند مرور الفأرة */
-        }
-        
-        /* تصميم زر PayPal */
-        .paypal-button {
-            display: inline-block;
-            padding: 10px 20px; 
-            background-color: #00457C; 
-            color: white !important; 
-            border-radius: 5px; 
-            text-decoration: none; 
-            font-weight: bold; 
-            margin-bottom: 10px;
-            transition: background-color 0.3s;
-        }
-        .paypal-button:hover {
-            background-color: #003366;
-            text-decoration: none;
-        }
-
-        /* تصميم زر الترويج للمشروع الآخر */
-        .promo-link { 
-            display: inline-block;
-            margin-top: 15px;
-            padding: 8px 15px;
-            background-color: #ffc107; /* لون أصفر/ذهبي لجذب الانتباه */
+        h1 {
             color: #333;
-            border-radius: 5px;
-            text-decoration: none;
+            font-size: 28px;
             font-weight: bold;
-            transition: background-color 0.3s;
         }
-        .promo-link:hover {
-            background-color: #e0a800;
+        h2 {
+            color: #e60023;
+            font-size: 18px;
+            margin-top: 5px;
         }
 
-        footer { text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #ccc; font-size: 0.9em; color: #666; }
+        /* تصميم بطاقات المراجعة (Flashcards) */
+        .flashcard-container {
+            border: 1px solid #ddd;
+            padding: 18px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .flashcard-container:hover {
+            background-color: #fcfcfc;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* تأثير تظليل جذاب عند التمرير */
+            transform: translateY(-2px); /* حركة بسيطة للأعلى */
+        }
+        .card-front h4 {
+            color: #0056b3; /* لون جذاب للسؤال */
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+        .card-back {
+            padding-top: 15px;
+            border-top: 1px dashed #ddd;
+            margin-top: 15px;
+        }
+        .pagination-controls button {
+            padding: 10px 25px;
+            background-color: #e60023;
+            color: white;
+            border: none;
+            border-radius: 50px; /* شكل دائري للأزرار */
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        .pagination-controls button:hover:not(:disabled) {
+            background-color: #a00018; /* لون أغمق عند التمرير */
+        }
+        .pagination-controls button:disabled {
+            background-color: #ccc;
+            cursor: default;
+        }
+        #results { margin-top: 25px; padding: 20px; border-radius: 10px; background-color: #e6ffe6; border: 1px solid #ccebcc; display: none; }
+        footer { 
+            text-align: center; 
+            margin-top: 50px; 
+            padding: 20px 0; 
+            border-top: 1px solid #ccc; 
+            font-size: 0.9em; 
+            color: #666;
+            background-color: #fff; /* خلفية بيضاء للتذييل */
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="header">
-        <img src="logo.jpg.jpg" alt="شعار مدونة الكفاية التربوية" class="logo"> 
-        <h1>اختبار الكفاءة المهنية التجريبي</h1>
-        <h2>إعداد وتقديم: مدونة الكفاية التربوية</h2> 
-        <p>اختبار شامل في الديداكتيك والمقاربات البيداغوجية (77 سؤالاً).</p>
-        
-        <a href="https://aboempireabo-art.github.io/Didactique-Premium-120Q/" 
-           target="_blank" 
-           class="promo-link">
-            🚀 انتقل إلى اختبار التحدي الأكبر (120 سؤالاً)!
-        </a>
-        
+        <img src="logo.jpg.jpg" alt="شعار الأستاذ" class="logo"> <!-- تأكد من صحة الامتداد logo.jpg.jpg أو logo.jpg -->
+        <h1>بنك أسئلة الكفاءة المهنية (120 سؤال مُركّب)</h1>
+        <h2>إعداد وتقديم: الأستاذ أبوبكر</h2>
+        <p class="text-gray-600">اختبار شامل وموجه لأساتذة الابتدائي، مقسم على 6 صفحات لمراجعة فعالة.</p>
     </div>
     
-    <form id="quizForm">
-        </form>
+    <div id="quiz-container">
+        <!-- سيتم تحميل أسئلة الصفحة الحالية هنا -->
+    </div>
     
-    <button onclick="submitQuiz()">إنهاء الاختبار وعرض النتيجة</button>
+    <div class="pagination-controls" style="text-align: center; margin-top: 30px;">
+        <button id="prevBtn" onclick="changePage(-1)" disabled>السابق</button>
+        <span id="pageInfo" style="font-weight: bold; margin: 0 20px;">الصفحة 1 من 6</span>
+        <button id="nextBtn" onclick="changePage(1)">التالي</button>
+    </div>
+
+    <button onclick="submitQuiz()" style="display: none; margin-top: 20px;" id="submitBtn" class="pagination-controls button">إنهاء الاختبار وعرض النتيجة</button>
 
     <div id="results">
         <h2>نتيجتك:</h2>
-        <p>لقد حصلت على <span id="score"></span> من 77 إجابة صحيحة.</p> 
+        <p>لقد حصلت على <span id="score"></span> من 120 إجابة صحيحة.</p>
         <div id="feedback"></div>
     </div>
 </div>
 
 <footer>
-    <div class="support-area">
-        <p>هل وجدت هذا الاختبار مفيداً؟ يمكنك دعم مدونة الكفاية التربوية لضمان استمرار المحتوى والتطوير:</p>
+    <p>
+        &copy; 2025 - جميع الحقوق محفوظة: [مدونة أبوبكر]. 
+        <br> 
+        <!-- تم استبدال علامة النجمة برمز كتاب وقلم -->
+        <span style="font-size: 1.2em;">📘✍️</span>  
         
         <a href="https://www.paypal.com/paypalme/BoubakerLachgar" 
            target="_blank" 
-           class="paypal-button">
-            ادعم مدونة الكفاية التربوية (PayPal)
+           style="color: #e60023; font-weight: bold; text-decoration: underline;">
+           [انقر هنا لدعمنا عبر PayPal]
         </a>
-        
-        <p style="margin-top: 15px; font-weight: bold;">للتواصل والاستفسارات والملاحظات:</p>
-        <p>راسلنا على: <a href="mailto:alkifayaatarbawiya@gmail.com">alkifayaatarbawiya@gmail.com</a></p>
-
-        <p style="margin-top: 10px;">نقدر دعمكم الكريم!</p>
-    </div>
-    <p>&copy; 2025 - جميع الحقوق محفوظة لـ **مدونة الكفاية التربوية**. تم التصميم لأغراض تربوية.</p>
+        .
+    </p>
 </footer>
 
 <script src="quiz.js"></script> 
-
 </body>
 </html>
